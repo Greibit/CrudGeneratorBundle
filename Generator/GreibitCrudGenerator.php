@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Greibit\CrudGeneratorBundle\Generator;
+namespace Greibit\Bundle\CrudGeneratorBundle\Generator;
 
 use Sensio\Bundle\GeneratorBundle\Generator\DoctrineCrudGenerator;
 use Symfony\Component\HttpKernel\Bundle\BundleInterface;

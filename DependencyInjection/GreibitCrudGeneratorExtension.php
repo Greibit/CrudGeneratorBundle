@@ -1,6 +1,6 @@
 <?php
 
-namespace Greibit\CrudGeneratorBundle\DependencyInjection;
+namespace Greibit\Bundle\CrudGeneratorBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

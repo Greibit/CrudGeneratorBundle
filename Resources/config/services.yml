@@ -1,5 +1,5 @@
 parameters:
-#    jordi_llonch_crud_generator.example.class: Greibit\CrudGeneratorBundle\Example
+#    jordi_llonch_crud_generator.example.class: Greibit\Bundle\CrudGeneratorBundle\Example
 
 services:
 #    jordi_llonch_crud_generator.example:

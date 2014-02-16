@@ -1,6 +1,6 @@
 <?php
 
-namespace Greibit\CrudGeneratorBundle\Controller;
+namespace Greibit\Bundle\CrudGeneratorBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 

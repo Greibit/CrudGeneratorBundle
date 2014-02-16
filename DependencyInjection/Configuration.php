@@ -1,6 +1,6 @@
 <?php
 
-namespace Greibit\CrudGeneratorBundle\DependencyInjection;
+namespace Greibit\Bundle\CrudGeneratorBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

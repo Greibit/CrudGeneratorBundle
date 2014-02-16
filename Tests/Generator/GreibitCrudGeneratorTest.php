@@ -11,10 +11,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Greibit\CrudGeneratorBundle\Tests\Generator;
+namespace Greibit\Bundle\CrudGeneratorBundle\Tests\Generator;
 
 use Sensio\Bundle\GeneratorBundle\Tests\Generator\DoctrineCrudGeneratorTest;
-use Greibit\CrudGeneratorBundle\Generator\GreibitCrudGenerator;
+use Greibit\Bundle\CrudGeneratorBundle\Generator\GreibitCrudGenerator;
 
 class GreibitCrudGeneratorTest extends DoctrineCrudGeneratorTest
 {

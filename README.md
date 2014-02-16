@@ -59,7 +59,7 @@ Execute:
 Add it to the `AppKernel.php` class:
 
     new Lexik\Bundle\FormFilterBundle\LexikFormFilterBundle(),
-    new Greibit\CrudGeneratorBundle\GreibitCrudGeneratorBundle(),
+    new Greibit\Bundle\CrudGeneratorBundle\GreibitCrudGeneratorBundle(),
 
 Add it to your `app/config/config.yml`
 

@@ -11,12 +11,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Greibit\CrudGeneratorBundle\Command;
+namespace Greibit\Bundle\CrudGeneratorBundle\Command;
 
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Sensio\Bundle\GeneratorBundle\Command\GenerateDoctrineCrudCommand;
-use Greibit\CrudGeneratorBundle\Generator\GreibitCrudGenerator;
+use Greibit\Bundle\CrudGeneratorBundle\Generator\GreibitCrudGenerator;
 use Symfony\Component\HttpKernel\Bundle\BundleInterface;
 
 

@@ -11,7 +11,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Greibit\CrudGeneratorBundle\Tests\Generator;
+namespace Greibit\Bundle\CrudGeneratorBundle\Tests\Generator;
 
 use Sensio\Bundle\GeneratorBundle\Tests\Generator\GeneratorTest;
 use Sensio\Bundle\GeneratorBundle\Generator\DoctrineFormGenerator;

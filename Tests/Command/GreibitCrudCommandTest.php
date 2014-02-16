@@ -11,7 +11,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Greibit\CrudGeneratorBundle\Tests\Command;
+namespace Greibit\Bundle\CrudGeneratorBundle\Tests\Command;
 
 use Sensio\Bundle\GeneratorBundle\Tests\Command\GenerateDoctrineCrudCommandTest;
 use Sensio\Bundle\GeneratorBundle\Tests\Command\GenerateCommandTest;
@@ -77,7 +77,7 @@ class GreibitCrudCommandTest extends GenerateCommandTest
     protected function getCommand($generator, $input)
     {
         $command = $this
-            ->getMockBuilder('Greibit\CrudGeneratorBundle\Command\GreibitCrudCommand')
+            ->getMockBuilder('Greibit\Bundle\CrudGeneratorBundle\Command\GreibitCrudCommand')
 //            ->getMockBuilder('Sensio\Bundle\GeneratorBundle\Command\GenerateDoctrineCrudCommand')
             ->setMethods(array('getEntityMetadata'))
             ->getMock()
@@ -131,7 +131,7 @@ class GreibitCrudCommandTest extends GenerateCommandTest
     protected function getFormFilterGenerator()
     {
         return $this
-            ->getMockBuilder('Greibit\CrudGeneratorBundle\Generator\DoctrineFormFilterGenerator')
+            ->getMockBuilder('Greibit\Bundle\CrudGeneratorBundle\Generator\DoctrineFormFilterGenerator')
             ->disableOriginalConstructor()
             ->setMethods(array('generate'))
             ->getMock()
